@@ -8,5 +8,17 @@
 
 #title {
     font-family: 'Pokemon Solid';
-    color: blue
+    color: darkgoldenrod;
+    animation: grow 1s;
+    border: black;
+}
+
+#title:hover {
+    color: gold;
+    transform: scale(1.2x);
+}
+
+body {
+    background-image: url('https://i.imgur.com/HddtBOT.png');
+    background-size: cover;
 }
